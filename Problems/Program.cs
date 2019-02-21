@@ -6,14 +6,12 @@ namespace Problems
     {
        public string Prefix(string h)
         {
-            string[] arr = h.Split(' ');
-            int s = 0;
+            int s = h.Length;
+            string[] delimters = new string[] { " " };
+            string[] arr = h.Split(delimters, StringSplitOptions.RemoveEmptyEntries);
+
             if (h != "")
             {
-                for (int d = 0; d < arr.Length; d++)
-                {
-                    s += arr[d].Length;
-                }
                 h = $"{s},{arr.Length}:" + h;
             }
             else h = "0,0:";
@@ -21,7 +19,7 @@ namespace Problems
         }
         static void Main(string[] args)
         {
-          //  Console.WriteLine(Prefix(""));
+             //Console.WriteLine(Prefix("what ... did you say??"));
         }
     }
 }
