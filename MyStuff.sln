@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ict.ru.ac.za", "ict.ru.ac.za", "{712F57E0-A063-447E-8AFF-7BD56D3789A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DFS", "DFS", "{4B7593EE-6C55-4A84-9CFF-D89E83E6F5FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UGHomes", "UGHomes", "{796D822D-9816-4DDC-9CE2-3A28DEFD6673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "g17m9389", "g17m9389", "{D1E42615-EE16-460B-9E03-E289F28C3438}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "My Documents", "My Documents", "{0202DC63-09FB-46FB-ABE0-CFC88AE4D00C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyStuff", "MyStuff", "{5C80EA2C-9A9B-42A6-8953-4D18BED5F243}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problems", "ict.ru.ac.za\DFS\UGHomes\g17m9389\My Documents\MyStuff\Problems\Problems.csproj", "{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|x64.Build.0 = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Debug|x86.Build.0 = Debug|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|x64.ActiveCfg = Release|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|x64.Build.0 = Release|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|x86.ActiveCfg = Release|Any CPU
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B7593EE-6C55-4A84-9CFF-D89E83E6F5FE} = {712F57E0-A063-447E-8AFF-7BD56D3789A9}
+		{796D822D-9816-4DDC-9CE2-3A28DEFD6673} = {4B7593EE-6C55-4A84-9CFF-D89E83E6F5FE}
+		{D1E42615-EE16-460B-9E03-E289F28C3438} = {796D822D-9816-4DDC-9CE2-3A28DEFD6673}
+		{0202DC63-09FB-46FB-ABE0-CFC88AE4D00C} = {D1E42615-EE16-460B-9E03-E289F28C3438}
+		{5C80EA2C-9A9B-42A6-8953-4D18BED5F243} = {0202DC63-09FB-46FB-ABE0-CFC88AE4D00C}
+		{A57B0DFF-1965-4DE0-9CE8-CEA7F960AA02} = {5C80EA2C-9A9B-42A6-8953-4D18BED5F243}
+	EndGlobalSection
+EndGlobal
