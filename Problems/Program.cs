@@ -4,7 +4,7 @@ namespace Problems
 {
     public class Program
     {
-        static string Prefix(string h)
+       public string Prefix(string h)
         {
             string[] arr = h.Split(' ');
             int s = 0;
@@ -21,7 +21,7 @@ namespace Problems
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Prefix(""));
+          //  Console.WriteLine(Prefix(""));
         }
     }
 }
