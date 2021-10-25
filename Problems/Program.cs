@@ -4,7 +4,7 @@ namespace Problems
 {
     public class Program
     {
-       public string Prefix(string h)
+       static string Prefix(string h)
         {
             int s = h.Length;
             string[] delimters = new string[] { " " };
@@ -12,14 +12,14 @@ namespace Problems
 
             if (h != "")
             {
-                h = $"{s},{arr.Length}:" + h;
+                h = $"{s}.{arr.Length}: " + h;
             }
             else h = "0,0:";
             return h;
         }
         static void Main(string[] args)
         {
-             //Console.WriteLine(Prefix("what ... did you say??"));
+             Console.WriteLine(Prefix("what ... did you say??"));
         }
     }
 }
